@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ibeauty</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="home">首页</string>
+    <string name="mycollect">我的收藏</string>
+    <string name="settings">设置</string>
+    <string name="change">换肤</string>
+</resources>

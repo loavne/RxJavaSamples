@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_above="@+id/bottom"
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/pageTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/previousPageBt"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="上一页" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/nextPageBt"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="下一页"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RxJavaSamples.iml" filepath="$PROJECT_DIR$/RxJavaSamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cache/cache.iml" filepath="$PROJECT_DIR$/cache/cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drawerlayout/drawerlayout.iml" filepath="$PROJECT_DIR$/drawerlayout/drawerlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ibeauty/ibeauty.iml" filepath="$PROJECT_DIR$/ibeauty/ibeauty.iml" />
+    </modules>
+  </component>
+</project>
